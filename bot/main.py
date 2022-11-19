@@ -21,7 +21,7 @@ async def edit(ctx):
     await ctx.edit(ctx, "No ")
 
 @bot.command()
-async def hello(ctx):
+async def hi(ctx):
     await ctx.send('hi')
 
 if __name__ == '__main__':
