@@ -16,5 +16,13 @@ async def on_ready():
 async def ping(ctx):
     await ctx.send('pong')
 
+@bot.command()
+async def edit(ctx):
+    await ctx.edit(ctx, "No ")
+
+@bot.command()
+async def hello(ctx):
+    await ctx.send('hi')
+
 if __name__ == '__main__':
     bot.run(os.getenv('DISCORD_TOKEN'))
