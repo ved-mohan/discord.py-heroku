@@ -18,8 +18,8 @@ async def ping(ctx):
     await ctx.send('pong')
 
 @bot.command()
-async def edit(ctx):
-    await ctx.edit(ctx, "No ")
+async def reply(ctx):
+    await ctx.reply('Hello!')
 
 @bot.command()
 async def hi(ctx):
